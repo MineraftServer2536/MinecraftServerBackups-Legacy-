@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:grove": "2022-04-18 17:17:38 +0000",
+      "minecraft:jagged_peaks": "2022-04-18 17:18:03 +0000",
+      "minecraft:forest": "2022-04-18 17:15:50 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

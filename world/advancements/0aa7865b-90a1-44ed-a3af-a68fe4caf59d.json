@@ -1,0 +1,22 @@
+{
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2022-04-18 17:45:51 +0000",
+      "rotten_flesh": "2022-04-18 17:45:39 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-04-18 17:45:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2022-04-18 17:36:28 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

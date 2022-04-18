@@ -1,0 +1,65 @@
+[18:53:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:53:10] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:53:10] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:53:10] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:53:10] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:53:10] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:53:12] [Worker-Main-2/INFO]: Loaded 7 recipes
+[18:53:12] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[18:53:17] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[18:53:17] [Server thread/INFO]: Loading properties
+[18:53:17] [Server thread/INFO]: Default game type: SURVIVAL
+[18:53:17] [Server thread/INFO]: Generating keypair
+[18:53:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:53:18] [Server thread/INFO]: Using epoll channel type
+[18:53:18] [Server thread/INFO]: Preparing level "world"
+[18:53:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:43] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[18:53:44] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[18:53:45] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[18:53:45] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[18:53:45] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[18:53:46] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[18:53:46] [Worker-Main-2/INFO]: Preparing spawn area: 14%
+[18:53:47] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:53:47] [Worker-Main-2/INFO]: Preparing spawn area: 31%
+[18:53:48] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[18:53:48] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[18:53:49] [Worker-Main-2/INFO]: Preparing spawn area: 63%
+[18:53:49] [Worker-Main-2/INFO]: Preparing spawn area: 72%
+[18:53:50] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[18:53:50] [Worker-Main-2/INFO]: Preparing spawn area: 88%
+[18:53:51] [Server thread/INFO]: Time elapsed: 18717 ms
+[18:53:51] [Server thread/INFO]: Done (32.611s)! For help, type "help"
+[18:58:54] [User Authenticator #1/INFO]: UUID of player piesOf314 is 59dc76a1-606d-44fe-b864-e420f1e3ff65
+[18:58:54] [Server thread/INFO]: piesOf314[/160.39.5.167:62394] logged in with entity id 195 at (-1.1821213895433886, 153.0, -47.926415785736886)
+[18:58:54] [Server thread/INFO]: piesOf314 joined the game
+[19:02:20] [Server thread/INFO]: piesOf314 lost connection: Disconnected
+[19:02:20] [Server thread/INFO]: piesOf314 left the game
+[19:11:05] [User Authenticator #2/INFO]: UUID of player piesOf314 is 59dc76a1-606d-44fe-b864-e420f1e3ff65
+[19:11:06] [Server thread/INFO]: piesOf314[/160.39.5.167:62657] logged in with entity id 568 at (-8.688728363101331, 162.0, -30.907717921955346)
+[19:11:06] [Server thread/INFO]: piesOf314 joined the game
+[19:11:19] [Server thread/INFO]: piesOf314 lost connection: Disconnected
+[19:11:19] [Server thread/INFO]: piesOf314 left the game
