@@ -4,7 +4,7 @@ GITHUB_PERSONAL_TOKEN="MY_GITHUB_PERSONAL_TOKEN"
 BACKUP_INTERVAL="1m" #Parameter use for sleep command. Here are some examples: 2 (2 seconds), 2m (2 minute), 2h (2 hours), 2d (2 days)
 
 cd $SERVER_DIR_NAME
-while [ : ]
+while true
 do
     echo "-------------------Backup Start-------------------"
     dt=$(date '+%d/%m/%Y %H:%M:%S');
