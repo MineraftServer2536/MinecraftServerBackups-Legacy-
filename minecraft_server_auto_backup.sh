@@ -7,6 +7,8 @@ cd $SERVER_DIR_NAME
 while [ : ]
 do
     echo "-------------------Backup Start-------------------"
+    dt=$(date '+%d/%m/%Y %H:%M:%S');
+    echo "$dt"
     pwd
     git status
     git add .
