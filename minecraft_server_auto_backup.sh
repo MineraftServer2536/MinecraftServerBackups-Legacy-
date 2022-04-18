@@ -23,6 +23,7 @@ do
     git stash drop
     git gc --prune=all
     echo "-------------------Backup Completed-------------------"
+    echo ">>> Next backup will start in $BACKUP_INTERVAL"
     sleep $BACKUP_INTERVAL
 done
 
