@@ -14,6 +14,13 @@ do
     git add .
     git commit -m "regular backup"
     git push https://$GITHUB_USERNAME:$GITHUB_PERSONAL_TOKEN@github.com/MineraftServer2536/MinecraftServerBackups.git --all
+    #Clean up local repo, only need to keep the last 1 commit on local
+    git fetch --depth 1
+    git reflog expire --expire=all --all
+    git tag -l | xargs git tag -d
+    git stash drop
+    git gc --prune=all
     echo "-------------------Backup Completed-------------------"
     sleep $BACKUP_INTERVAL
 done
+
