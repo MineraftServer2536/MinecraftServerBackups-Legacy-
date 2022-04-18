@@ -7,6 +7,7 @@ cd $SERVER_DIR_NAME
 while true
 do
     echo "-------------------Backup Start-------------------"
+    echo ">>> Pushing latest changes to GitHub"
     dt=$(date '+%d/%m/%Y %H:%M:%S');
     echo "$dt"
     pwd
@@ -15,7 +16,7 @@ do
     git commit -m "regular backup"
     git push https://$GITHUB_USERNAME:$GITHUB_PERSONAL_TOKEN@github.com/MineraftServer2536/MinecraftServerBackups.git --all
     #Clean up local repo, only need to keep the last 1 commit on local
-    echo "Cleaning up local repository (We only need 1 commit record on local)..."
+    echo ">>> Cleaning up local repository (We only need 1 commit record on local)"
     git fetch --depth 1
     git reflog expire --expire=all --all
     git tag -l | xargs git tag -d
