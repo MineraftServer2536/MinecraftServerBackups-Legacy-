@@ -57,7 +57,7 @@ You can also run this script for a manual GitHub backup.
 
 ### Other Useful commands    
 * `exit` to stop the current session we are in
-* `sudo apt install openjdk-17-jdk` to install specific jdk/jre (Minecraft 1.18 required Java 17)
+* `sudo apt-get update` then `sudo apt install openjdk-17-jdk` to install specific jdk/jre (Minecraft 1.18 required Java 17)
     
 ## Reference Links
 https://ostechnix.com/how-to-check-if-you-are-in-screen-session-or-not-in-linux
