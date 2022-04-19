@@ -9,8 +9,8 @@
 1. Connect to the server via ssh (the user name is `ubuntu`)
 2. Type `screen -ls` to list all sessions.
 You should see two screen sessions — one for running the Minecraft server and another for auto server backup.
-3. Type `screen -r <session ID>` to enter screen session. Session ID should be composed of 4 digits
-    3.1 To know wheater are we in a screen session, type `echo $STY` (This will print out the session id. If we are not in a screen session, it will print nothing)
+3. Type `screen -r <session ID>` to enter screen session. Session ID should be composed of 4 digits  
+    3.1 To know wheater are we in a screen session, type `echo $STY` (This will print out the session id. If we are not in a screen session, it will print nothing)  
     3.2 To detach from current session, press: `Ctrl` + `A` + `D`
     
 ### To start the Minecraft server
@@ -39,20 +39,20 @@ You can also run this script for a manual GitHub backup.
 1. `cd` to your Minecraft server directory
 2. `git init` to initialize the Minecraft server directory as a git repo
 3. `git remote add origin <GitHub repo url>` to set up GitHub backup repo.
-4. Try to run the following commands to push the local repo to GitHub.
-    4.1  `git status` to list repo status
-    4.2 `git add .` to add all change
-    4.3 `git commit -m "initial commit"` to commit changes
-    4.4 `git push -u origin master` to push changes to the GitHub repo
-    (When asking for the password, we recommend using GitHub Personal Access Token)
-5. Copy `minecraft_server_auto_backup.sh` **OUTSIDE** the Minecraft server directory
+4. Try to run the following commands to push the local repo to GitHub.  
+    4.1  `git status` to list repo status  
+    4.2 `git add .` to add all change  
+    4.3 `git commit -m "initial commit"` to commit changes 
+    4.4 `git push -u origin master` to push changes to the GitHub repo  
+    (When asking for the password, we recommend using GitHub Personal Access Token) 
+5. Copy `minecraft_server_auto_backup.sh` **OUTSIDE** the Minecraft server directory  
    (We do this because we will add our GitHub personal access token to the script later, and we don't want to push it to the GitHub.)
 6. Give execution permission to the script via `chmod u+r+x minecraft_server_auto_backup.sh`
-7. Type `nano minecraft_server_auto_backup.sh` to configure the following parameters.
-    7.1 `SERVER_DIR_NAME`: the directory of the local git repo, which should be our server folder. The script will `cd` to this directory before running git commands.
-    7.2 `GITHUB_USERNAME`: GitHub user name
-    7.3 `GITHUB_PERSONAL_TOKEN`: GitHub Personal Access Token (Be aware of the expiration date)
-    7.4 `BACKUP_INTERVAL`: How often do we back up our server? (ex: `6h` for every six hours, `1d` for every day)
+7. Type `nano minecraft_server_auto_backup.sh` to configure the following parameters.  
+    7.1 `SERVER_DIR_NAME`: the directory of the local git repo, which should be our server folder. The script will `cd` to this directory before running git commands.  
+    7.2 `GITHUB_USERNAME`: GitHub user name  
+    7.3 `GITHUB_PERSONAL_TOKEN`: GitHub Personal Access Token (Be aware of the expiration date)  
+    7.4 `BACKUP_INTERVAL`: How often do we back up our server? (ex: `6h` for every six hours, `1d` for every day)  
 8. Open a new screen session by typing `screen` and execute the script via `./minecraft_server_auto_backup.sh`
 
 ### Other Useful commands    
