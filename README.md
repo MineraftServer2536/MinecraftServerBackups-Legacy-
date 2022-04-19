@@ -55,7 +55,7 @@ You can also run this script for a manual GitHub backup.
     7.4 `BACKUP_INTERVAL`: How often do we back up our server? (ex: `6h` for every six hours, `1d` for every day)  
 8. Open a new screen session by typing `screen` and execute the script via `./minecraft_server_auto_backup.sh`
 
-### Other Useful commands    
+### Other Useful Commands    
 * `exit` to stop the current session we are in
 * `sudo apt-get update` then `sudo apt install openjdk-17-jdk` to install specific jdk/jre (Minecraft 1.18 required Java 17)
     
