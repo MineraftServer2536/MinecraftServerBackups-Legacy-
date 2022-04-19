@@ -42,14 +42,14 @@ You can also run this script for a manual GitHub backup.
 4. Try to run the following commands to push the local repo to GitHub.  
     4.1  `git status` to list repo status  
     4.2 `git add .` to add all change  
-    4.3 `git commit -m "initial commit"` to commit changes 
+    4.3 `git commit -m "initial commit"` to commit changes   
     4.4 `git push -u origin master` to push changes to the GitHub repo  
     (When asking for the password, we recommend using GitHub Personal Access Token) 
 5. Copy `minecraft_server_auto_backup.sh` **OUTSIDE** the Minecraft server directory  
    (We do this because we will add our GitHub personal access token to the script later, and we don't want to push it to the GitHub.)
 6. Give execution permission to the script via `chmod u+r+x minecraft_server_auto_backup.sh`
 7. Type `nano minecraft_server_auto_backup.sh` to configure the following parameters.  
-    7.1 `SERVER_DIR_NAME`: the directory of the local git repo, which should be our server folder. The script will `cd` to this directory before running git commands.  
+    7.1 `SERVER_DIR_NAME`: the relative directory path of the local git repo, which should be our server folder.  
     7.2 `GITHUB_USERNAME`: GitHub user name  
     7.3 `GITHUB_PERSONAL_TOKEN`: GitHub Personal Access Token (Be aware of the expiration date)  
     7.4 `BACKUP_INTERVAL`: How often do we back up our server? (ex: `6h` for every six hours, `1d` for every day)  
