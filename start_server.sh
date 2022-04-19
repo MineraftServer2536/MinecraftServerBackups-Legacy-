@@ -1,7 +1,7 @@
 #!/bin/sh
 while true
 do
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+java -Xmx3072M -Xms3072M -jar server.jar nogui
 echo "If you want to completely stop the server process now, press Ctrl+C before
 the time is up!"
 echo "Rebooting in:"

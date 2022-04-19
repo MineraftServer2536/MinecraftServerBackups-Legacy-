@@ -1,5 +1,43 @@
-[00:23:50] [User Authenticator #7/INFO]: UUID of player piesOf314 is 59dc76a1-606d-44fe-b864-e420f1e3ff65
-[00:23:50] [Server thread/INFO]: piesOf314[/160.39.5.167:51683] logged in with entity id 1441 at (-6.678945356019299, 167.0, -38.8170053439404)
-[00:23:50] [Server thread/INFO]: piesOf314 joined the game
-[00:26:54] [Server thread/INFO]: piesOf314 lost connection: Disconnected
-[00:26:54] [Server thread/INFO]: piesOf314 left the game
+[06:35:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:35:15] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:35:15] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:35:15] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:35:15] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:35:15] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:35:17] [Worker-Main-2/INFO]: Loaded 7 recipes
+[06:35:17] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[06:35:19] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[06:35:19] [Server thread/INFO]: Loading properties
+[06:35:19] [Server thread/INFO]: Default game type: SURVIVAL
+[06:35:19] [Server thread/INFO]: Generating keypair
+[06:35:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:35:20] [Server thread/INFO]: Using epoll channel type
+[06:35:20] [Server thread/INFO]: Preparing level "world"
+[06:35:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:35:34] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[06:35:34] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[06:35:35] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[06:35:35] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[06:35:36] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[06:35:36] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[06:35:37] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[06:35:37] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[06:35:38] [Worker-Main-2/INFO]: Preparing spawn area: 40%
+[06:35:38] [Worker-Main-2/INFO]: Preparing spawn area: 63%
+[06:35:39] [Worker-Main-2/INFO]: Preparing spawn area: 63%
+[06:35:39] [Server thread/INFO]: Time elapsed: 12741 ms
+[06:35:39] [Server thread/INFO]: Done (19.457s)! For help, type "help"
