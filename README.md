@@ -30,7 +30,7 @@ You can also run this script for a manual GitHub backup.
 
 ## Setting up Auto-Restart & Auto-GitHub-Backup for a New Server
 ### Auto-Restart
-1. Copy `start_server.sh` to your minecraft server directory
+1. Copy `start_server.sh` to your minecraft server directory  
     1.1 Modify this line if needed: `java -Xmx1024M -Xms1024M -jar server.jar nogui`
 2. Give execution permission to the script via `chmod u+r+x start_server.sh`
 3. Open a new screen session by typing `screen`, and execute the script via `./start_server.sh`
